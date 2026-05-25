@@ -1,0 +1,150 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/WoodenBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+  info [
+    "The model of the E-puck robot"
+  ]
+  title "E-puck simulation"
+}
+Viewpoint {
+  orientation 0.5987869035926481 -0.5476679233198789 -0.5843920686084131 4.244525368952893
+  position -1.1421746185436799 -1.767027143922072 1.4489507016968823
+  follow "e-puck"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation -0.172994 -0.303835 -6.66134e-16
+  floorSize 4 4
+}
+WoodenBox {
+  translation 0.364172 -0.0499761 0.05
+  rotation -9.589789999999998e-09 -1.9469099999999993e-08 -0.9999999999999998 0.9153653071795864
+  name "wooden box(8)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.528737 -0.264031 0.05
+  rotation -9.589789999999998e-09 -1.9469099999999993e-08 -0.9999999999999998 0.9153653071795864
+  name "wooden box(14)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.193941 -0.345897 0.05
+  rotation 0 0 1 5.36782
+  name "wooden box(4)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.226881 -0.782949 0.05
+  rotation 0 0 1 5.36782
+  name "wooden box(9)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.360971 -0.608533 0.05
+  rotation 0 0 1 5.36782
+  name "wooden box(10)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.123133 -0.425683 0.05
+  rotation 0 0 1 5.36782
+  name "wooden box(15)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.202413 -0.486633 0.05
+  rotation 0 0 1 5.36782
+  name "wooden box(16)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.281693 -0.547583 0.05
+  rotation 0 0 1 5.36782
+  name "wooden box(17)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.291417 -0.636759 0.05
+  rotation 0 0 1 5.36782
+  name "wooden box(7)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -1.29973 -1.56999 0.05
+  rotation 0 0 1 5.36782
+  name "wooden box(3)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -1.55044 -2.01529 0.05
+  rotation 0 0 1 5.36782
+  name "wooden box(11)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -1.86214 -1.56065 0.05
+  rotation 0 0 1 5.36782
+  name "wooden box(2)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.0803783 -0.153151 0.05
+  rotation 0 0 1 5.36782
+  name "wooden box(1)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.0940351 -0.019061 0.05
+  rotation 0 0 1 5.36782
+  name "wooden box(5)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.147601 -0.721999 0.05
+  rotation 0 0 1 5.36782
+  name "wooden box(12)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.0683214 -0.661049 0.05
+  rotation 0 0 1 5.36782
+  name "wooden box(13)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.0109575 -0.600099 0.05
+  rotation 0 0 1 5.36782
+  name "wooden box(19)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.465832 -0.502669 0.05
+  rotation 0 0 1 5.36782
+  name "wooden box(6)"
+  size 0.1 0.1 0.1
+}
+E-puck {
+  hidden position_0_0 53.9098459474997
+  hidden position_0_1 49.88232394097461
+  hidden linearVelocity_0 0.036539046430967524 -0.04772149948401648 -2.2151657899378702e-08
+  hidden angularVelocity_0 0.005484122298836854 0.004199043572877744 2.819073324663305e-09
+  hidden rotation_1 0 1 0 3.8353012463704372
+  hidden linearVelocity_1 0.036560031519698104 -0.047748927772908345 -3.054609224229764e-11
+  hidden angularVelocity_1 2.387446035237661 1.8280020606881144 7.655088145132467e-08
+  hidden rotation_2 0 -1 0 5.1789789127002575
+  hidden linearVelocity_2 0.036560051743775274 -0.04774891237348959 1.8028714205737217e-11
+  hidden angularVelocity_2 2.3874459917233986 1.8280021175241556 -7.346412016741404e-08
+  translation -1.2169792614334325 -1.8215726129971201 -6.395997181947964e-05
+  rotation -0.00023584072527210406 -0.000477609022000701 -0.9999998581343772 0.9173400655796935
+  controller "my_controller"
+}
